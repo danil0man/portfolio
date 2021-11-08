@@ -5,4 +5,4 @@ Description: A Page about my Hobby
 
 # My Hobby
 
-My favourite hobby is warhammer. There is all from art, to miniatures, to litterature. Is expensive but super fun
+My favorite hobby is warhammer. There is all from art, to miniatures, to literature. Is expensive but super fun

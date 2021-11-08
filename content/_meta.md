@@ -1,5 +1,5 @@
 ---
-Logo: assets/img/leaf_256x256.png
+Logo: assets/img/token_1.png
 Tagline: A bank of creativity.
 Social:
     - title: Link till sidans github repo.
