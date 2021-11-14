@@ -1,9 +1,0 @@
-{
-    "version": 3,
-    "mappings": "",
-    "sources": [
-        "../../../../../example/lectures/2020/kmom02/variables.scss"
-    ],
-    "names": [],
-    "file": "variables.min.css"
-}
