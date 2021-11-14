@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Maitree:wght@400;700&family=Open+Sans:ital,wght@0,400;0,700;1,400&family=Raleway:wght@100;300;400;700;900&display=swap');
+
+body {
+    font-family: sans-serif;
+    color: #444;
+    font-size: 1.6rem;
+}
+
+p,
+td,
+th,
+li,
+dd {
+    text-align: justify;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin-bottom: 0.6em;
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 6.5rem;
+    color: $color-accent;
+}
+
+h2 {
+    font-size: 5rem;
+}
+
+h3 {
+    font-size: 3.8rem;
+}
+
+h4 {
+    font-size: 2.8rem;
+}
+
+h5 {
+    font-size: 2.1rem;
+}
+
+h6 {
+    font-size: 1.6rem;
+}
+
+@media screen and (max-width: 500px) {
+    h1 {
+        font-size: 5rem;
+    }
+
+    h2 {
+        font-size: 3.7rem;
+    }
+
+    h3 {
+        font-size: 2.8rem;
+    }
+
+    h4 {
+        font-size: 2.1rem;
+    }
+
+    h5 {
+        font-size: 1.6rem;
+    }
+
+    p,
+    h6 {
+        font-size: 1.4rem;
+    }
+}

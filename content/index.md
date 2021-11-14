@@ -7,9 +7,13 @@ Description: This is our index page.
 
 <div class="content" markdown="1">
 
+<div class="content__left" markdown="1">
+
 ![Image Title](%assets_url%/img/danny.jpg) {.small}
 
-<div class="right__content" markdown="1">
+</div>
+
+<div class="content__right" markdown="1">
 
 Hej, Mitt namn är Danny Castillo. Jag är född på Kuba men har bott i Sverige sedan 2001. Först bodde jag på Gotland nästan 13 år, men har pluggat i båda Lund och Uppsala. Nyligen flyttade tillsammans med min fru till Oviken, nära Östersund där vi bor på en gård. Det är super härlig med skogpromenader och frisk luft.
 

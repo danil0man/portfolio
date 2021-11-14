@@ -1,0 +1,46 @@
+html {
+    font-size: 62.5%;
+    animation: smoothscroll1 1s;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+html:focus-within {
+    animation-name: smoothscroll2;
+    scroll-behavior: smooth;
+}
+
+body {
+    box-sizing: border-box;
+    overflow-x: none;
+    display: flex;
+    flex-direction: column;
+}
+
+input,
+button,
+textarea,
+select {
+    font: inherit;
+}
+
+ol,
+ul {
+    padding-left: 1.5em;
+}
+
+a,
+i {
+    color: $color-accent;
+}
+
+.main {
+    flex: 1 0 auto;
+}
+
+.hidden {
+    display: none !important;
+}

@@ -1,0 +1,45 @@
+.header {
+    @include flex;
+    justify-content: space-between;
+
+    h1 {
+        font-size: 4rem;
+    }
+}
+
+.site-header {
+    @include flex;
+    justify-content: space-between;
+}
+
+.logo img {
+    width: 150px;
+}
+
+.title,
+.logo {
+    padding: 1rem 2rem;
+}
+
+@media (max-width: 767px) {
+    .title,
+    .logo {
+        padding: 1em 1em 1em 0;
+    }
+
+    .title {
+        min-width: 50%;
+    }
+
+    .logo {
+        max-width: 30%;
+    }
+}
+
+.title * {
+    color: $color-accent;
+}
+
+.title p {
+    font-style: italic;
+}

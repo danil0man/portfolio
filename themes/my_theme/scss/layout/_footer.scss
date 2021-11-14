@@ -1,0 +1,15 @@
+.footer {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid #222;
+}
+
+.footer a {
+    color: $color-accent;
+    font-size: 3rem;
+    padding: 1rem;
+}
+
+.footer .social {
+    font-size: 2rem;
+}
