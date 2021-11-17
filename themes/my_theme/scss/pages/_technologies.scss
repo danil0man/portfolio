@@ -29,7 +29,7 @@
     color: $color-white;
     font-weight: 900;
     text-shadow: 0 0.5rem 0.5rem $color-dark;
-    background: create-gradient(0deg, $color-1, $color-2, $color-3);
+    background: create-gradient(0deg, $color-one, $color-two, $color-three);
     width: 20rem;
     height: 20rem;
     display: flex;
@@ -48,7 +48,7 @@
         right: 0;
         bottom: 0;
         left: 0;
-        background: create-gradient(360deg, $color-3, $color-2, $color-1);
+        background: create-gradient(360deg, $color-three, $color-two, $color-one);
         z-index: -1;
         transition: opacity 0.7s linear;
         opacity: 0;
