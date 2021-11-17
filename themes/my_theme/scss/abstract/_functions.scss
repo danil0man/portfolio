@@ -1,0 +1,3 @@
+@function create-gradient($deg, $color, $color-2, $color-3) {
+    @return linear-gradient($deg, $color 25%, $color-2 50%, $color-3 75%);
+}

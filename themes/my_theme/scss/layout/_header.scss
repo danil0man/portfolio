@@ -29,10 +29,25 @@
 
     .title {
         min-width: 50%;
+        text-align: center;
+
+        h1 {
+            font-size: 2rem;
+        }
+
+        p {
+            text-align: center;
+        }
     }
 
     .logo {
         max-width: 30%;
+    }
+}
+
+@media (max-width: 375px) {
+    .logo img {
+        width: 10rem;
     }
 }
 
