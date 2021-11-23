@@ -1,0 +1,52 @@
+a,
+i {
+    color: $color-dark;
+}
+
+body {
+    color: $color-dark;
+    background-color: $color-white;
+}
+
+h1 {
+    color: $color-dark;
+}
+
+.nav a {
+    color: $color-dark;
+}
+
+.nav-toggle {
+    color: $color-dark;
+}
+
+.content {
+    &__right {
+        border-top: 3px solid $color-dark;
+        border-bottom: 3px solid $color-dark;
+    }
+}
+
+
+.small {
+    border: 3px solid $color-dark;
+}
+
+.tech-link {
+    color: $color-accent;
+    text-shadow: 0 0.5rem 0.5rem $color-dark;
+}
+
+.footer a {
+    color: $color-dark;
+}
+
+.title * {
+    color: $color-dark;
+}
+
+pre {
+    padding: 1rem;
+    color: $color-white;
+    background-color: $color-dark;
+}

@@ -3,7 +3,11 @@
         {% if pages["_meta"].meta.logo %}
         <div class="logo">
             <a href="{{ base_url }}">
+                {% if config.session.theme == "dark" %}
                 <img src="{{ base_url }}/{{ pages["_meta"].meta.logo|url }}" alt="" />
+                {% else %}
+                <img src="{{ base_url }}/{{ pages["_meta"].meta["Logo2"] }}" alt="" />
+                {% endif %}
             </a>
         </div>
         {% endif %}
@@ -13,8 +17,7 @@
                 {{ pages["_meta"].meta.tagline|markdown }}
             </a>
         </div>
-        <a class="nav-toggle" id="nav-toggle" title="Toggle Menu" role="button" aria-controls="nav" aria-expanded="false"
-            tabindex="1">
+        <a class="nav-toggle" id="nav-toggle" title="Toggle Menu" role="button" aria-controls="nav" aria-expanded="false" tabindex="1">
             <i class="fa fa-bars" aria-hidden="true" id="toggler"></i>
             <span class="sr-only">Toggle Menu</span>
         </a>
@@ -23,10 +26,10 @@
         <div id="nav" role="navigation" tabindex="-1">
             <ul>
                 {% for page in pages(depthOffset=-1) if page.title and not page.hidden %}
-                    <li{% if page.id==current_page.id %} class="active" {% endif %}>
-                        <a href="{{ page.url }}">{{ page.title }}</a>
+                <li{% if page.id==current_page.id %} class="active" {% endif %}>
+                    <a href="{{ page.url }}">{{ page.title }}</a>
                     </li>
-                {% endfor %}
+                    {% endfor %}
             </ul>
         </div>
     </div>
