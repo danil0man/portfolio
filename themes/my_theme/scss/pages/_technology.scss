@@ -18,6 +18,16 @@
         line-height: 1.5;
         margin-bottom: 1rem;
     }
+
+    h2,
+    li {
+        font-family: $sub-font;
+    }
+
+    li {
+        margin: 1rem 0;
+    }
+
 }
 
 .aside-link {
@@ -39,4 +49,8 @@
     .tech-aside {
         display: none;
     }
+}
+
+.rapport-img {
+    max-width: 100%;
 }
