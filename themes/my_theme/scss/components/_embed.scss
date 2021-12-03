@@ -1,0 +1,12 @@
+.embed-container {
+    @include container($width: 80rem, $margin: 4rem);
+    @include flex($main: center, $cross: center);
+    height: 50rem;
+}
+
+.embed-container iframe,
+.embed-container object,
+.embed-container embed {
+    width: 100%;
+    height: 100%;
+}

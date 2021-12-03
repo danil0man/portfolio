@@ -1,5 +1,9 @@
-@mixin flex {
+@mixin flex($main: flex-start, $cross: stretch, $direction: row, $wrap: nowrap) {
     display: flex;
+    flex-direction: $direction;
+    justify-content: $main;
+    align-items: $cross;
+    flex-wrap: $wrap;
 }
 
 @mixin grid {
@@ -7,10 +11,10 @@
 }
 
 // Centered Container
-@mixin container {
-    max-width: 120rem;
-    margin: 0 auto;
-    padding: 0 1rem;
+@mixin container($width: 120rem, $margin: 0, $padding: 0 1rem) {
+    max-width: $width;
+    margin: $margin auto;
+    padding: $padding;
 }
 
 // Screen reader
@@ -24,3 +28,5 @@
     white-space: nowrap;
     border: 0;
 }
+
+

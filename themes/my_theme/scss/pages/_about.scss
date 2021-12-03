@@ -1,8 +1,6 @@
 .tech {
-    @include container;
-    max-width: 80rem;
+    @include container($width: 80rem, $margin: null, $padding: 0 2rem);
     font-family: $para-font;
-    padding: 0 2rem;
     margin-bottom: 2rem;
 }
 

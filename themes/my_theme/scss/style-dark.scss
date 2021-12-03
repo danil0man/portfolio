@@ -26,6 +26,7 @@ $fa-font-path: '../../shared/fontawesome/webfonts';
 
 // Components
 @import 'components/button';
+@import 'components/embed';
 
 // Pages
 @import 'pages/home';
@@ -34,4 +35,5 @@ $fa-font-path: '../../shared/fontawesome/webfonts';
 @import 'pages/technologies';
 @import 'pages/technology';
 @import 'pages/analysis';
+@import 'pages/gallery';
 @import 'pages/dark';

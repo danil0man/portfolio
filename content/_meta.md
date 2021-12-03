@@ -12,4 +12,17 @@ Social:
     - title: Dark Mode
       url: ?action=theme
       icon: fas fa-moon
+Gallery:
+    - url: /image/flags/eu.png
+      alt: test
+    - url: /image/flags/france.png
+      alt: test
+    - url: /image/flags/germany.png
+      alt: test
+    - url: /image/flags/netherlands.png
+      alt: test
+    - url: /image/flags/spain.png
+      alt: test
+    - url: /image/flags/sweden.png
+      alt: test
 ---

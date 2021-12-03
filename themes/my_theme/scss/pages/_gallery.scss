@@ -1,0 +1,30 @@
+.gallery {
+    @include grid;
+    @include container($width: 150rem);
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: auto;
+    justify-items: center;
+    gap: 2rem;
+
+    &-main {
+        padding-top: 3rem;
+    }
+
+}
+
+@media screen and (max-width: 1400px) {
+    .gallery {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .gallery {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+}
+
+

@@ -11,26 +11,21 @@ body {
 
 .content {
     @include container;
-    @include flex;
-    justify-content: space-around;
+    @include flex($main: space-around);
 
     &__left {
         width: 50%;
     }
 
     &__left p {
-        @include flex;
-        justify-content: center;
-        align-items: center;
+        @include flex($main: center, $cross: center);
     }
 
     &__right {
-        @include flex;
+        @include flex($main: center, $direction: column);
         padding: 2rem;
         width: 50%;
         padding: 0 2rem;
-        flex-direction: column;
-        justify-content: center;
         border-top: 3px solid $color-accent;
         border-bottom: 3px solid $color-accent;
     }
