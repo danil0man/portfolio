@@ -14,15 +14,15 @@ Social:
       icon: fas fa-moon
 Gallery:
     - url: /image/flags/eu.png
-      alt: test
+      alt: eu
     - url: /image/flags/france.png
-      alt: test
+      alt: france
     - url: /image/flags/germany.png
-      alt: test
+      alt: germany
     - url: /image/flags/netherlands.png
-      alt: test
+      alt: netherlands
     - url: /image/flags/spain.png
-      alt: test
+      alt: spain
     - url: /image/flags/sweden.png
-      alt: test
+      alt: sweden
 ---

@@ -1,8 +1,6 @@
 .grid-container {
-    @include grid;
+    @include grid($columns: 1fr 3fr, $gap: 0 2rem);
     @include container;
-    grid-template-columns: 1fr 3fr;
-    gap: 0 2rem;
 }
 
 .tech-aside {

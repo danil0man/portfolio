@@ -6,8 +6,15 @@
     flex-wrap: $wrap;
 }
 
-@mixin grid {
+@mixin grid($columns: auto, $rows: auto, $gap: 0 0, $justify: stretch, $align: stretch, $auto-rows: auto) {
     display: grid;
+    grid-template-columns: $columns;
+    grid-template-rows: $rows;
+    justify-items: $justify;
+    align-items: $align;
+    grid-auto-rows: $auto-rows;
+    gap: $gap;
+
 }
 
 // Centered Container

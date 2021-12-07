@@ -1,11 +1,6 @@
 .tech-main {
-    @include grid;
+    @include grid($columns: repeat(3, 25rem), $rows: 10rem, $auto-rows: minmax(20rem, auto), $justify: center, $align: center);
     @include container;
-    grid-template-columns: repeat(3, 25rem);
-    grid-template-rows: 10rem;
-    grid-auto-rows: minmax(20rem, auto);
-    justify-items: center;
-    align-items: center;
 
     h1 {
         grid-column: span 3;
