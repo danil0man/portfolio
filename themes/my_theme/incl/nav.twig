@@ -4,9 +4,9 @@
         <div class="logo">
             <a href="{{ base_url }}">
                 {% if config.session.theme == "dark" %}
-                <img src="{{ base_url }}/{{ pages["_meta"].meta.logo|url }}" alt="" />
+                <img src="{{ base_url }}/{{ pages["_meta"].meta.logo|url }}" alt="logo" />
                 {% else %}
-                <img src="{{ base_url }}/{{ pages["_meta"].meta["Logo2"] }}" alt="" />
+                <img src="{{ base_url }}/{{ pages["_meta"].meta["Logo2"] }}" alt="logo" />
                 {% endif %}
             </a>
         </div>
