@@ -30,6 +30,10 @@ h1 {
 
 .small {
     border: 3px solid $color-dark;
+
+    &:hover {
+        box-shadow: 0 2rem 5rem 1rem rgba($color-dark, 0.5);
+    }
 }
 
 .tech-link {
@@ -49,4 +53,16 @@ pre {
     padding: 1rem;
     color: $color-white;
     background-color: $color-dark;
+}
+
+.gallery {
+    img {
+        border: 1px solid $color-dark;
+        transition: all 0.5s;
+    }
+
+    img:hover {
+        transform: translateY(-1rem);
+        box-shadow: 0 2rem 5rem 1rem rgba($color-dark, 0.5);
+    }
 }

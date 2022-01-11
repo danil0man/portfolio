@@ -6,6 +6,16 @@
         padding-top: 3rem;
     }
 
+    img {
+        border: 1px solid $color-white;
+        transition: all 0.5s;
+    }
+
+    img:hover {
+        transform: translateY(-1rem);
+        box-shadow: 0 2rem 5rem 1rem rgba($color-white, 0.5);
+    }
+
 }
 
 @media screen and (max-width: 1400px) {

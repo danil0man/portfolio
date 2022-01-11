@@ -9,7 +9,7 @@ Description: This is our index page.
 
 <div class="content__left" markdown="1">
 
-![Image Title](%assets_url%/img/danny.jpg) {.small}
+![Image Title](image/danny.jpg?w=472) {.small}
 
 </div>
 

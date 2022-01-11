@@ -18,19 +18,19 @@ Vi har valt webbplatser med ett försäljnings syfte. Vi tyckte att det kunde va
 
 -   **NetOnNet**
 
-![NetonNet](../../image/load/netonet.png "NetonNet website") {.rapport-img}
+![NetonNet](../image/load/netonet.png?w=830 "NetonNet website") {.rapport-img}
 
 &nbsp;
 
 -   **Ikea**
 
-![Ikea](../../image/load/ikea.png  "Ikea website") {.rapport-img}
+![Ikea](../image/load/ikea.png?w=830  "Ikea website") {.rapport-img}
 
 &nbsp;
 
 -   **Clas Ohlson**
 
-![Clas Ohlson](../../image/load/clas.png "Clas Ohlson website") {.rapport-img}
+![Clas Ohlson](../image/load/clas.png?w=830 "Clas Ohlson website") {.rapport-img}
 
 &nbsp;
 
@@ -46,7 +46,7 @@ Vi har använt oss utav devtools i firefox och google page insights.
 
 &nbsp;
 
-<iframe style="width: 100%; height: 180px;"src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQbROV2rrZ5g8XRCaJuA5JkkwBX6X5D-HTIzveZnmU_aRTVYEo1K07qn9UhpqBajgzP6v4YY-zilg9b/pubhtml?widget=true&amp;headers=false"></iframe>
+<iframe style="width: 100%; height: 180px;"src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQbROV2rrZ5g8XRCaJuA5JkkwBX6X5D-HTIzveZnmU_aRTVYEo1K07qn9UhpqBajgzP6v4YY-zilg9b/pubhtml?widget=true&amp;headers=false" title="rapport"></iframe>
 
 &nbsp;
 

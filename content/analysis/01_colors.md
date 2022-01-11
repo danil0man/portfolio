@@ -13,15 +13,15 @@ Vi valde webbsidor som är relevanta för oss. BTH besöks frekvent eftersom det
 
 -   **Battle.net**
 
-![Battlenet](%assets_url%/img/colors/battlenet-page.png 'Battle.net website') {.rapport-img}
+![Battlenet](../image/colors/battlenet-page.png?w=830 'Battle.net website') {.rapport-img}
 
 -   **Microsoft**
 
-![Microsoft](%assets_url%/img/colors/microsoft-page.png 'Microsoft website') {.rapport-img}
+![Microsoft](../image/colors/microsoft-page.png?w=830 'Microsoft website') {.rapport-img}
 
 -   **Blekinge Tekniska Högskola**
 
-![BTH](%assets_url%/img/colors/bth-page.png 'BTH website') {.rapport-img}
+![BTH](../image/colors/bth-page.png?w=830 'BTH website') {.rapport-img}
 
 ## Metod
 
@@ -31,7 +31,7 @@ Vi använda oss av css overview som är ett standard verktyg i chrome devtools f
 
 -   **Battle.net**
 
-![Battlenet_result](%assets_url%/img/colors/bth.png 'Battle.net colorscheme result') {.rapport-img}
+![Battlenet_result](../image/colors/bth.png?w=830 'Battle.net colorscheme result') {.rapport-img}
 
 Battle.net har ett monokromatiskt färgschema. Sidan använder mestadels grå färg med grönt, blått och orange som accentfärger. Det resulterar i att accentfärgerna blir mer tydliga. De olika accentfärgerna referar till olika saker, till exempel grönt används till att markera "blackfriday sale". Medan blå används för knapparna på sidan. Färgerna på sidan är "glada" vilket kan reflektera produkterna de säljer som är spel.
 
@@ -41,7 +41,7 @@ Vi anser att webbplatsen har ett färgval och typografi som motsvarar den profil
 
 -   **Microsoft**
 
-![Microsoft_result](%assets_url%/img/colors/microsoft.png 'Microsoft colorscheme result') {.rapport-img}
+![Microsoft_result](../image/colors/microsoft.png?w=830 'Microsoft colorscheme result') {.rapport-img}
 
 Microsoft har akromatiskt färgschema med vitt och svart som kompleteras med accentfärgerna som är kompletmentfärger. Sidan använder mestadels vitt och svar, dessa två färger gör att accentfärgerna som är blått och rött kan lyfta fram viktiga saker på sidan.
 
@@ -51,7 +51,7 @@ Vi kan konstatera att webbplatsen har ett färgval och typografi som är baserat
 
 -   **Blekinge Tekniska Högskola**
 
-![BTH_result](%assets_url%/img/colors/bth.png 'BTH colorscheme result') {.rapport-img}
+![BTH_result](../image/colors/bth.png?w=830 'BTH colorscheme result') {.rapport-img}
 
 BTH har ett monkromatiskt färgschema. Utav de tre sidor som valdes så har BTH den tydligaste typen av färgschema (monokromatiskt).
 

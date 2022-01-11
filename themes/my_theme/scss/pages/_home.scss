@@ -41,6 +41,12 @@ body {
 .small {
     width: 80%;
     border: 3px solid $color-accent;
+    transition: 1s all;
+}
+
+.small:hover {
+    transform: translateY(-1rem);
+    box-shadow: 0 2rem 5rem 1rem rgba($color-white, 0.5);
 }
 
 @media (max-width: 767px) {
